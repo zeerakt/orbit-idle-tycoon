@@ -2,12 +2,12 @@
   "name": "orbit-idle-tycoon",
   "version": "1.0.0",
   "private": true,
-  "type": "module",
   "description": "A polished browser idle game where players build an orbital resource empire.",
+  "type": "module",
   "scripts": {
-    "test": "node --test",
-    "start": "python3 -m http.server 5173",
-    "serve": "python3 -m http.server 5173"
+    "build": "node build.js",
+    "start": "node build.js",
+    "test": "node --test"
   },
   "keywords": [
     "idle-game",

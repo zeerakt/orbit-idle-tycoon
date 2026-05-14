@@ -1,0 +1,20 @@
+{
+  "name": "orbit-idle-tycoon",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A polished browser idle game where players build an orbital resource empire.",
+  "scripts": {
+    "test": "node --test",
+    "start": "python3 -m http.server 5173",
+    "serve": "python3 -m http.server 5173"
+  },
+  "keywords": [
+    "idle-game",
+    "browser-game",
+    "incremental-game",
+    "space-game"
+  ],
+  "author": "Zeerak Tahir",
+  "license": "MIT"
+}

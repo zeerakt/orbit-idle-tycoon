@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "name": "orbit-idle-tycoon",
+  "builds": [
+    { "src": "index.html", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/.*", "dest": "/index.html" }
+  ]
+}

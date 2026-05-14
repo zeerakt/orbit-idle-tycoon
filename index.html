@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Orbit Idle Tycoon</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Orbit Idle Tycoon</h1>
+      <p>Grow your orbiting empire and reach for the stars!</p>
+    </header>
+
+    <main>
+      <section class="stats">
+        <div class="resource-display">
+          <span id="resourceCount">0</span> <span class="resource-label">orbits</span>
+        </div>
+        <div class="prestige-display">
+          <button id="prestigeButton">Prestige (resets for bonus)</button>
+          <span id="prestigePoints">0</span> prestige points
+        </div>
+      </section>
+
+      <section class="actions">
+        <button id="manualCollect">Collect Orbit</button>
+      </section>
+
+      <section class="generators">
+        <h2>Generators</h2>
+        <ul id="generatorsList"></ul>
+      </section>
+
+      <section class="upgrades">
+        <h2>Upgrades</h2>
+        <ul id="upgradesList"></ul>
+      </section>
+
+      <section class="achievements">
+        <h2>Achievements</h2>
+        <ul id="achievementsList"></ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>Made with ❤️ for incremental game enthusiasts</p>
+    </footer>
+  </div>
+
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>
